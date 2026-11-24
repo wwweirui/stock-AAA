@@ -4,6 +4,7 @@ __pycache__/
 .DS_Store
 
 data/*.db
+!data/tracker.db
 data/*.db-wal
 data/*.db-shm
 
@@ -13,6 +14,7 @@ frontend/dist/
 # user research files
 imports/*
 !imports/README.md
+!imports/*.json
 
 # TypeScript incremental build output
 frontend/*.tsbuildinfo
